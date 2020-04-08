@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Latihan 1</string>
+    <string name="button_mulai">Mulai</string>
+    <string name="ilustrator_text">Monitory Membantu Anda Mengontrol HP Anak</string>
+    <string name="deskripsi_kebijakan">Dengan menekan tombol masuk berarti Anda menyetujui\n <b>Ketentuan Pengguna</b> dan <b>Kebuijakan Data</b> Kami</string>
+    <string name="ketikan_kode">Ketikan Kode</string>
+    <string name="ketik_kode_keluarga">Ketikkan Kode Keluarga yang Ayah Bunda\n miliki disini</string>
+    <string name="kode_keluarga">Kode Keluarga</string>
+    <string name="button_selanjutnya">Selanjutnya</string>
+    <string name="deskripsi_sukses">Beres! Sekarang kamu\n udah bisa ngecek\n penggunaan HP Ananda Marwanaya Putra\n tiap hari buat bantu kamu\n ngatur waktu :)</string>
+</resources>

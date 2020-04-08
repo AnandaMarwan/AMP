@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarKeluargaActivity">
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="32dp"
+            android:textColor="@color/Black87"
+            android:textSize="28sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:text="Nama Panggilan Kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_marginTop="24dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="20dp"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="Contoh : Ananda Marwanaya Putra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="24dp"
+            android:textColor="@color/Black87"
+            android:textSize="28sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:text="Umur Kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginTop="24dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="20dp"
+            android:fontFamily="@font/rubik_regular"
+            android:hint="Contoh : 12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_selanjutnya"
+        android:textSize="19sp"
+        android:text="@string/button_selanjutnya"
+        android:textAllCaps="false"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/background_button_sunflower"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

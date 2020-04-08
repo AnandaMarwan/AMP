@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KodeKeluargaActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="32dp"
+        android:text="@string/kode_keluarga"
+        android:textSize="28sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/Black3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="16dp"
+        android:text="@string/ketik_kode_keluarga"
+        android:textSize="17sp"
+        android:textColor="@color/Black3"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_kode_keluarga"
+        android:layout_marginTop="32dp"
+        android:hint="@string/ketikan_kode"
+        android:inputType="textCapCharacters"
+        android:background="@drawable/background_edt_kode_keluarga"
+        android:textColor="@color/Black87"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/tv_kebijakan"
+        android:layout_gravity="center"
+        android:textColor="@color/Black87"
+        android:text="@string/deskripsi_kebijakan"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_marginTop="24dp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_masuk_kode_keluarga"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/button_mulai"
+        android:layout_marginTop="16dp"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/background_button_sunflower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/background_layout_bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/Black3"
+            android:fontFamily="@font/rubik_regular"
+            android:text="Belum punya kode keluarga?"
+            android:textSize="19sp"
+            android:textAllCaps="false"
+            android:background="@drawable/background_button_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:fontFamily="@font/nunito_bold"
+            android:text="Beli Kode Keluarga Disini"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/Whitetwo"
+            android:textSize="19sp"
+            android:layout_marginBottom="32dp"
+            android:textAllCaps="false"
+            android:background="@drawable/background_button_lavender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
